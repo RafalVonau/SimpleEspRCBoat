@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Łódź</string>
+    <string name="preferences_name">Ustawienia</string>
+    <string name="preferences_enableWifi">Włącz WiFi przy starcie</string>
+    <string name="preferences_disableWifiText">Wyłącz WiFi orzy zamknięciu</string>
+    <string name="preferences_espIP_title">IP</string>
+    <string name="preferences_espIP_summary">Adres IP Łodzi</string>
+    <string name="menu_settings">Ustawienia</string>
+</resources>

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+. ../bin/env
+adb uninstall com.elfin.Boat
+adb install -f ./bin/Boat-debug.apk
+adb shell "cd /data/local/tmp;rm Boat-debug.apk;"

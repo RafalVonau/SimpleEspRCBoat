@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<CheckBoxPreference android:key="enableWifi" android:title="@string/preferences_enableWifi" android:defaultValue="true"/>
+	<CheckBoxPreference android:key="disableWifi" android:title="@string/preferences_disableWifiText" android:defaultValue="false"/>
+</PreferenceScreen>

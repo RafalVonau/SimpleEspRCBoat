@@ -1,0 +1,10 @@
+#!/bin/bash
+. /opt/esp-open-sdk/env
+
+export ESPTOOL=/opt/esp-open-sdk/esptool/esptool.py
+export ESPPORT=/dev/ttyUSB0
+make clean
+rm *.bin
+make
+#make burn
+make burn_all
